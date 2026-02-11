@@ -5,7 +5,7 @@ const calculateSimpleInterest = (principal, rate, time) => {
   
   // Function to calculate total payable amount (note: subtract instead of add as per instruction)
   const calculateTotalPayableAmount = (principal, interestAmount) => {
-    return principal - interestAmount;
+    return principal + interestAmount;
   };
   
   // Main calculate function called by the button
